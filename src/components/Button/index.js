@@ -1,15 +1,36 @@
-import styled from 'styled-components';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { ButtonStyled } from './styles';
 
-const Button = styled.button`
-  cursor: pointer;
-  border: ${(props) => (props.noBorder ? '1px solid transparent' : '1px solid #fd0')} ;
-  border-radius: 0px;
-  font-weight: 700;
-  margin: ${(props) => props.margin};
-  width: ${(props) => props.width};
-  padding: 10px 0;
-  color: black;
-  background-color: ${(props) => (props.transparent ? 'transparent' : '#fd0')};
-`;
+function Button({
+  children, transparent, margin, width, noBorder, ...rest
+}) {
+  return (
+    <ButtonStyled
+      width={width}
+      transparent={transparent}
+      margin={margin}
+      noBorder={noBorder}
+      {...rest}
+    >
+      {children}
+    </ButtonStyled>
+  );
+}
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  transparent: PropTypes.bool,
+  margin: PropTypes.string,
+  width: PropTypes.string,
+  noBorder: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  transparent: false,
+  margin: null,
+  width: '150px',
+  noBorder: false,
+};
 
 export default Button;

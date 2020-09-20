@@ -1,3 +1,4 @@
+import globalStyle from './styles/global';
 import button from './components/Button';
 import col from './components/Col';
 import container from './components/Container';
@@ -13,3 +14,4 @@ export const Input = input;
 export const Menu = menu;
 export const Row = row;
 export const Select = select;
+export const GlobalStyle = globalStyle;
