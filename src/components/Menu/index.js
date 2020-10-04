@@ -1,26 +1,20 @@
-import styled, { keyframes } from 'styled-components';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { NavStyled } from './styles';
 
-const animation = keyframes`
-  from {
-    background: white;
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
+function Nav({ children, height }) {
+  return (
+    <NavStyled height={height}>{children}</NavStyled>
+  );
+}
 
-const Nav = styled.nav`
-  background-color: white;
-  height: 55px;
-  margin-bottom: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 15px;
-  border-bottom: 1px solid #dae0e6;
-  animation: ${animation} .25s ease-in-out;
-`;
+Nav.propTypes = {
+  children: PropTypes.node.isRequired,
+  height: PropTypes.string,
+}
+
+Nav.defaultProps = {
+  height: '55px',
+}
 
 export default Nav;
