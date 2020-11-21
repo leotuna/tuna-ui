@@ -97,7 +97,7 @@ body {
   font-weight: bold;
 }
 
-.input-group input {
+.input-group input, select {
   display: block;
   border: 1px solid #bfbed0;
   padding: 10px;
@@ -108,11 +108,11 @@ body {
   font-size: 16px;
 }
 
-.input-group input:disabled {
+.input-group input:disabled, select:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.input-group input:focus {
+.input-group input:focus, select:focus {
   border: 1px solid var(--dark);
 }
