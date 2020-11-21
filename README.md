@@ -3,6 +3,31 @@ Minimalist CSS to start projects with speed.
 
 ***
 
+## Installation
+```
+npm install tuna-ui
+yarn add tuna-ui
+```
+
+***
+## Usage
+```
+import 'tuna-ui/dist/tuna-ui.min.css';
+
+function App() {
+  return (
+    <main>
+      <nav className="nav"></nav>
+      <div class="container"></div>
+    </main>
+  );
+}
+
+export default App;
+```
+
+***
+
 ## Components
 
 ### Container

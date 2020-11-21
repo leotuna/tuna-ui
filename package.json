@@ -1,0 +1,19 @@
+{
+  "name": "tuna-ui",
+  "version": "2.0.4",
+  "description": "Minimalist CSS to start projects with speed.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leotuna/tuna-ui.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Leonardo Tuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leotuna/tuna-ui/issues"
+  },
+  "homepage": "https://github.com/leotuna/tuna-ui#readme"
+}
