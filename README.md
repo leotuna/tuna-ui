@@ -49,8 +49,19 @@ export default App;
 ### Input
 ```
 <div class="input-group">
-    <label for="input">Label</label>
-    <input id="input" type="text" />
+    <label>Label</label>
+    <input />
+</div>
+```
+
+### Select
+```
+<div class="input-group">
+    <label>Label</label>
+    <select>
+      <option>Option One</option>
+      <option>Option Two</option>
+    </select>
 </div>
 ```
 
