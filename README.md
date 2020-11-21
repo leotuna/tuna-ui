@@ -18,7 +18,7 @@ function App() {
   return (
     <main>
       <nav className="nav"></nav>
-      <div class="container"></div>
+      <div className="container"></div>
     </main>
   );
 }
