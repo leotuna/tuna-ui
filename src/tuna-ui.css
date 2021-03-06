@@ -31,42 +31,6 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.flex {
-  display: flex;
-}
-
-.flex--row {
-  flex-direction: row;
-}
-
-.flex--col {
-  flex-direction: column;
-}
-
-.flex--justify-center {
-  justify-content: center;
-}
-
-.flex--justify-start {
-  justify-content: flex-start;
-}
-
-.flex--justify-end {
-  justify-content: flex-end;
-}
-
-.flex--align-center {
-  align-items: center;
-}
-
-.flex--align-start {
-  align-items: flex-start;
-}
-
-.flex--align-end {
-  align-items: flex-end;
-}
-
 .link {
   color: var(--dark);
 }
