@@ -48,7 +48,7 @@ export default App;
 
 ### Input
 ```
-<div class="input-group">
+<div class="form-group">
     <label>Label</label>
     <input />
 </div>
@@ -56,7 +56,7 @@ export default App;
 
 ### Select
 ```
-<div class="input-group">
+<div class="form-group">
     <label>Label</label>
     <select>
       <option>Option One</option>
