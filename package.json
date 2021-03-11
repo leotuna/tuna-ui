@@ -1,6 +1,6 @@
 {
   "name": "tuna-ui",
-  "version": "2.0.10",
+  "version": "2.0.11",
   "description": "Minimalist CSS to start projects with speed.",
   "main": "index.js",
   "scripts": {

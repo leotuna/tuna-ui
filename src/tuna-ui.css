@@ -104,7 +104,7 @@ body {
   margin-bottom: 10px;
 }
 
-.form-group--full-width {
+.form-group--full-width input {
   display: block;
   width: 100%;
 }
