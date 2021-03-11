@@ -41,15 +41,27 @@ body {
 }
 
 .btn {
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
   color: var(--dark);
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   background-color: var(--main);
   border: 1px solid var(--main);
   cursor: pointer;
   font-weight: 700;
   min-width: 150px;
-  padding: 10px 0;
+}
+
+.btn--rounded {
+  border-radius: 1.5em;
+  padding: 3px 15px;
+  text-align: center;
 }
 
 .btn:hover {
@@ -88,16 +100,21 @@ body {
   padding: 0 15px;
 }
 
-.input-group {
+.form-group {
   margin-bottom: 10px;
 }
 
-.input-group label {
+.form-group--full-width {
+  display: block;
+  width: 100%;
+}
+
+.form-group label {
   display: block;
   font-weight: bold;
 }
 
-.input-group input, select {
+.form-group input, select {
   display: block;
   border: 1px solid #bfbed0;
   padding: 10px;
@@ -108,12 +125,12 @@ body {
   font-size: 16px;
 }
 
-.input-group input:disabled, select:disabled {
+.form-group input:disabled, select:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.input-group input:focus, select:focus {
+.form-group input:focus, select:focus {
   border: 1px solid var(--dark);
 }
 
