@@ -17,8 +17,13 @@ import 'tuna-ui/dist/tuna-ui.min.css';
 function App() {
   return (
     <main>
-      <nav className="nav"></nav>
       <div className="container"></div>
+      <form>
+        <div className="form-group">
+          <label>Your email</label>
+          <input type="email" />
+        </div>
+      </form>
     </main>
   );
 }
@@ -33,11 +38,6 @@ export default App;
 ### Container
 ```
 <body class="container"></body>
-```
-
-### Navbar
-```
-<nav class="nav"></nav>
 ```
 
 ### Button
