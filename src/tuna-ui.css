@@ -82,7 +82,7 @@ body {
 
 .container {
   padding: 15px;
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0 auto;
   animation: container-animation 0.25s ease-in-out;
 }
